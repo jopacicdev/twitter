@@ -1,6 +1,6 @@
 # Twitter
 
-Twitter API for Laravel 4/5
+Twitter API for Laravel 4/5/6
 
 You need to create an application and create your access token in the [Application Management](https://apps.twitter.com/).
 
@@ -9,16 +9,16 @@ You need to create an application and create your access token in the [Applicati
 
 ## Installation
 
-Add `thujohn/twitter` to `composer.json`.
+Add `jopacicdev/twitter` to `composer.json`.
 ```
-"thujohn/twitter": "~2.0"
+"jopacicdev/twitter": "~3.0"
 ```
 
 Run `composer update` to pull down the latest version of Twitter.
 
 Or run
 ```
-composer require thujohn/twitter
+composer require jopacicdev/twitter
 ```
 
 Now open up `/config/app.php` and add the service provider to your `providers` array.
